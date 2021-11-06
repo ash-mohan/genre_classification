@@ -1,0 +1,31 @@
+{
+    "os": "Darwin-20.6.0-x86_64-i386-64bit",
+    "python": "3.7.8",
+    "heartbeatAt": "2021-11-06T19:29:01.726074",
+    "startedAt": "2021-11-06T19:29:00.824037",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "download_data.py",
+    "codePath": "download/download_data.py",
+    "git": {
+        "remote": "https://github.com/ash-mohan/genre_classification.git",
+        "commit": "f6d930091d2d904e475e2d93fa114243798a4468"
+    },
+    "email": "ashwath.mohan@docusign.com",
+    "root": "/Users/ashwath.mohan/Desktop/workspace/classwork/reproducible_workflow/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification",
+    "host": "DSA023295",
+    "username": "ashwath.mohan",
+    "executable": "/Users/ashwath.mohan/opt/anaconda3/envs/mlflow-559b8f1617bb04ba2acf79676450d941163d4a96/bin/python"
+}

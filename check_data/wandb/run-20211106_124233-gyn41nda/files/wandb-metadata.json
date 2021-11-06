@@ -1,0 +1,31 @@
+{
+    "os": "macOS-11.6-x86_64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2021-11-06T19:42:34.761738",
+    "startedAt": "2021-11-06T19:42:33.655506",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data:latest",
+        "--sample_artifact",
+        "preprocessed_data:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/ash-mohan/genre_classification.git",
+        "commit": "f6d930091d2d904e475e2d93fa114243798a4468"
+    },
+    "email": "ashwath.mohan@docusign.com",
+    "root": "/Users/ashwath.mohan/Desktop/workspace/classwork/reproducible_workflow/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification",
+    "host": "DSA023295",
+    "username": "ashwath.mohan",
+    "executable": "/Users/ashwath.mohan/opt/anaconda3/envs/mlflow-7398531e5288219e428182dc4d6601ae57991d39/bin/python"
+}

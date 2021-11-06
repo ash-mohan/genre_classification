@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ashwath.mohan/Desktop/workspace/classwork/reproducible_workflow/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/genre_classification/mlruns/0/23a6f51a1ba24b85946d632a84f5e4c1/artifacts
+end_time: 1636228802258
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 23a6f51a1ba24b85946d632a84f5e4c1
+run_uuid: 23a6f51a1ba24b85946d632a84f5e4c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1636228787615
+status: 3
+tags: []
+user_id: ashwath.mohan

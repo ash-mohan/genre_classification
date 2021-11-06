@@ -20,8 +20,7 @@ def go(config: DictConfig):
         # This was passed on the command line as a comma-separated list of steps
         steps_to_execute = config["main"]["execute_steps"].split(",")
     else:
-        assert isinstance(config["main"]["execute_steps"], list)
-        steps_to_execute = config["main"]["execute_steps"]
+        steps_to_execute = list(config["main"]["execute_steps"])
 
     # Download step
     if "download" in steps_to_execute:
@@ -44,7 +43,7 @@ def go(config: DictConfig):
             os.path.join(root_path, "preprocess"),
             "main",
             parameters={
-                "input_artifact": "raw_data:latest",
+                "input_artifact": "raw_data.parquet:latest",
                 "artifact_name": "preprocessed_data",
                 "artifact_type": "preprocessed_data",
                 "artifact_description": "Data after preprocessing pipeline"
@@ -72,7 +71,7 @@ def go(config: DictConfig):
             "main",
             parameters={
                 "input_artifact": "preprocessed_data:latest",
-                "artitfact_root": "data",
+                "artifact_root": "data",
                 "artifact_type": "segregated_data",
                 "test_size": config["data"]["test_size"],
                 "random_state": config["main"]["random_seed"],
